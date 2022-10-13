@@ -11,19 +11,40 @@
 
 body{
     background-color: var(--cor2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 96vh;
 }
 main{
-    margin: 100px 700px;
-    background-position: center;
     background-color: var(--cor1);
-    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    padding-top: 20px;
+    border-radius: 15px;
 }
-
 .img{
-    margin: 100px 100px;
+    border-radius: 15px;
 }
 
-.h3{
-    font-family: 'Outfit', 'Arial', 'sans-serif';
-
+h1{
+    font-family: 'Outfit', Arial, sans-serif;
+    color: var(--cor4);
+    font-size: 20px;
+    text-align: center;
+    margin: 15px  10px 15px 10px;
+    max-width: 250px;
+}
+h2{
+    font-family: 'Outfit', Arial, sans-serif;
+    color: var(--cor3);
+    max-width: 230px;
+    font-size: smaller;
+    text-align: center;
+    margin: 3px 3px 30px 3px;
 }
